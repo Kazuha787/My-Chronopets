@@ -3,23 +3,47 @@
     "dog": [
       {
         "name": "Bruno",
-        "date_of_birth": "2022-10-10"
+        "date_of_birth": "2022-10-10",
+        "age": {
+          "years": 2,
+          "months": 6,
+          "days": 22,
+          "hours": 6
+        }
       }
     ],
     "cat": [
       {
         "name": "Mochi",
-        "date_of_birth": "2024-08-15"
+        "date_of_birth": "2024-08-15",
+        "age": {
+          "years": 0,
+          "months": 8,
+          "days": 17,
+          "hours": 6
+        }
       }
     ],
     "bird": [
       {
         "name": "Kiwi",
-        "date_of_birth": "2023-12-01"
+        "date_of_birth": "2023-12-01",
+        "age": {
+          "years": 1,
+          "months": 5,
+          "days": 1,
+          "hours": 6
+        }
       },
       {
         "name": "Mango",
-        "date_of_birth": "2023-12-01"
+        "date_of_birth": "2023-12-01",
+        "age": {
+          "years": 1,
+          "months": 5,
+          "days": 1,
+          "hours": 6
+        }
       }
     ]
   }
