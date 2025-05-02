@@ -4,12 +4,12 @@
 
 > **Daily age updates for my pets: Bruno the Dog, Mochi the Cat, Kiwi & Mango the Birds!**
 
-## 📅 Last updated: 2 May 2025 at 12:23:19 pm IST
+## 📅 Last updated: 2 May 2025 at 9:52:10 pm IST
 
-- **Bruno** (🐶): 2 years, 6 months, 22 days, 6 hours
-- **Mochi** (🐱): 0 years, 8 months, 17 days, 6 hours
-- **Kiwi** (🐦): 1 years, 5 months, 1 days, 6 hours
-- **Mango** (🐦): 1 years, 5 months, 1 days, 6 hours
+- **Bruno** (🐶): 2 years, 6 months, 22 days, 16 hours
+- **Mochi** (🐱): 0 years, 8 months, 17 days, 16 hours
+- **Kiwi** (🐦): 1 years, 5 months, 1 days, 16 hours
+- **Mango** (🐦): 1 years, 5 months, 1 days, 16 hours
 
 ---
 ✨ Auto-updated using GitHub Actions
