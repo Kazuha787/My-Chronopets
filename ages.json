@@ -1,0 +1,26 @@
+{
+  "categories": {
+    "dog": [
+      {
+        "name": "Bruno",
+        "date_of_birth": "2022-10-10"
+      }
+    ],
+    "cat": [
+      {
+        "name": "Mochi",
+        "date_of_birth": "2024-08-15"
+      }
+    ],
+    "bird": [
+      {
+        "name": "Kiwi",
+        "date_of_birth": "2023-12-01"
+      },
+      {
+        "name": "Mango",
+        "date_of_birth": "2023-12-01"
+      }
+    ]
+  }
+}
