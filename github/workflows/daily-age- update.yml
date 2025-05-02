@@ -1,0 +1,51 @@
+name: Daily Age Update (Kazuha)
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # Runs every day at 16:00 UTC (12:00 AM WITA)
+  workflow_dispatch: # Allows manual triggering from the GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+
+      - name: Install Dependencies (if needed)
+        run: npm install || true
+        # Only needed if your script has dependencies (like date-fns, etc.)
+
+      - name: Run update script
+        run: node update_ages.js
+
+      - name: Setup Git Configuration
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions Bot"
+
+      - name: Prepare Commit
+        run: |
+          commit_messages=("Update pet ages 🕓" "Daily age refresh 🧬" "Growing older 🌱" "Another day older 🗓️")
+          random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
+          current_time=$(date '+%Y-%m-%d %H:%M:%S')
+          git add ages.json README.md
+          git diff --cached --quiet || git commit -m "$random_msg - $current_time"
+
+      - name: GitHub Push to main
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
