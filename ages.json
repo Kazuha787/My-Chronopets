@@ -6,8 +6,8 @@
         "date_of_birth": "2022-10-10",
         "age": {
           "years": 2,
-          "months": 8,
-          "days": 29,
+          "months": 9,
+          "days": 0,
           "hours": 16
         }
       }
@@ -19,7 +19,7 @@
         "age": {
           "years": 0,
           "months": 10,
-          "days": 24,
+          "days": 25,
           "hours": 16
         }
       }
@@ -31,7 +31,7 @@
         "age": {
           "years": 1,
           "months": 7,
-          "days": 8,
+          "days": 9,
           "hours": 16
         }
       },
@@ -41,7 +41,7 @@
         "age": {
           "years": 1,
           "months": 7,
-          "days": 8,
+          "days": 9,
           "hours": 16
         }
       }
