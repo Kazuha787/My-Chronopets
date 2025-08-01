@@ -7,7 +7,7 @@
         "age": {
           "years": 2,
           "months": 9,
-          "days": 21,
+          "days": 22,
           "hours": 16
         }
       }
@@ -19,7 +19,7 @@
         "age": {
           "years": 0,
           "months": 11,
-          "days": 16,
+          "days": 17,
           "hours": 16
         }
       }
@@ -30,8 +30,8 @@
         "date_of_birth": "2023-12-01",
         "age": {
           "years": 1,
-          "months": 7,
-          "days": 30,
+          "months": 8,
+          "days": 0,
           "hours": 16
         }
       },
@@ -40,8 +40,8 @@
         "date_of_birth": "2023-12-01",
         "age": {
           "years": 1,
-          "months": 7,
-          "days": 30,
+          "months": 8,
+          "days": 0,
           "hours": 16
         }
       }
